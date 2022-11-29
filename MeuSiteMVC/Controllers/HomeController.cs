@@ -11,15 +11,9 @@ namespace MeuSiteMVC.Controllers
 {
     public class HomeController : Controller
     {
-       
         public IActionResult Index()
         {
-            HomeModel home = new HomeModel();
-
-            home.Nome = "Iago Leles";
-            home.Email = "iago@gmail.com";
-
-            return View(home);
+            return View();
         }
 
         public IActionResult Privacy()
