@@ -1,3 +1,4 @@
+using MeuSiteMVC.Data;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -24,6 +25,7 @@ namespace MeuSiteMVC
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews();
+            services.AddEntityFrameworkSqlite().AddDbContext<BancoContext>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
