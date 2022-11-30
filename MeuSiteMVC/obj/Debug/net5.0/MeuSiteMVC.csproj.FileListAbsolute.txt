@@ -355,6 +355,6 @@ C:\Users\iago.rezende\source\repos\MeuSiteMVC\MeuSiteMVC\obj\Debug\net5.0\ref\Me
 C:\Users\iago.rezende\source\repos\MeuSiteMVC\MeuSiteMVC\obj\Debug\net5.0\MeuSiteMVC.pdb
 C:\Users\iago.rezende\source\repos\MeuSiteMVC\MeuSiteMVC\obj\Debug\net5.0\MeuSiteMVC.genruntimeconfig.cache
 C:\Users\iago.rezende\source\repos\MeuSiteMVC\MeuSiteMVC\obj\Debug\net5.0\Razor\Views\Contato\Index.cshtml.g.cs
-C:\Users\iago.rezende\source\repos\MeuSiteMVC\MeuSiteMVC\obj\Debug\net5.0\Razor\Views\Contato\Apagar.cshtml.g.cs
 C:\Users\iago.rezende\source\repos\MeuSiteMVC\MeuSiteMVC\obj\Debug\net5.0\Razor\Views\Contato\Criar.cshtml.g.cs
 C:\Users\iago.rezende\source\repos\MeuSiteMVC\MeuSiteMVC\obj\Debug\net5.0\Razor\Views\Contato\Editar.cshtml.g.cs
+C:\Users\iago.rezende\source\repos\MeuSiteMVC\MeuSiteMVC\obj\Debug\net5.0\Razor\Views\Contato\ApagarConfirmacao.cshtml.g.cs
