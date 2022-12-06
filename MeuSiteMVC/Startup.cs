@@ -1,7 +1,9 @@
 using MeuSiteMVC.Data;
+using MeuSiteMVC.Repositorio;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
@@ -25,7 +27,8 @@ namespace MeuSiteMVC
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews();
-            services.AddEntityFrameworkSqlite().AddDbContext<BancoContext>();
+            services.AddDbContext<BancoContext>(o => o.UseSqlite(Configuration.GetConnectionString("ConexaoSQLite")));
+            services.AddScoped<IContatoRepositorio, ContatoRepositorio>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
